@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	arr := []int {10, 5, 10, 5, 55, 22, 66, 77, 0, 4, 7, 8, 1, 5, -1, -10}
+	arr := []int {10, 5, 10, 5, 55, 22, 66, 77, 0, 4, 7, 8, 1, 5, -1, -10 ,-100}
 	fmt.Println("unsorted array values are", arr)
 	selectionSort(arr)
 	fmt.Println("sorted array values are", arr)
